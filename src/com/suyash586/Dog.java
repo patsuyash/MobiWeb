@@ -31,7 +31,7 @@ class Animal {
 }
 
 public final class Dog extends Animal {
-    private String breed;
+    private final String breed;
 
     private Dog(String breed) {
         this.breed = breed;
